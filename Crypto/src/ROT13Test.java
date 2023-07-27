@@ -1,3 +1,4 @@
+import com.sun.jdi.CharValue;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
