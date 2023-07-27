@@ -28,16 +28,20 @@ public class ROT13 {
     }
 
     public String encrypt(String text) {
-        return text;
+        return crypt(text);
     }
 
     public String decrypt(String text) {
-        return text;
+        return crypt(text);
     }
 
     public static String rotate(String s, Character c) {
+        int diff = c-'A';
+        String s1 = s.substring(diff)+s.substring(0,diff);
 
-        return "";
+
+
+        return s1;
     }
 
 }
