@@ -38,9 +38,6 @@ public class ROT13 {
     public static String rotate(String s, Character c) {
         int diff = c-'A';
         String s1 = s.substring(diff)+s.substring(0,diff);
-
-
-
         return s1;
     }
 
